@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="C:\MICEX\XSLT\spfi-xslt.xsl"?><moexSpfiReport xmlns="http://www.moex.com/spfi-1" xmlns:ms="http://www.moex.com/spfi-1" xmlns:fpml="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="xsd/spfi-1-6.xsd" version="1.6" type="cr" xslt="1.4.9">
+  <header>
+    <messageId>8c307bb3-ee3b-4fb3-add6-c47a55c2c9cb</messageId>
+    <sentBy>NCCB</sentBy>
+    <sendTo>MF0276600000</sendTo>
+    <clearingDate>2025-06-06</clearingDate>
+    <creationTimestamp>2025-06-06T19:48:08</creationTimestamp>
+    <clearingSessionNo>2</clearingSessionNo>
+  </header>
+  <fpml>
+    <market xmlns="http://www.fpml.org/FpML-5/confirmation">
+      <benchmarkQuotes>
+        <instrumentSet>
+          <rateIndex id="EUR-ESTR">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">EUR-ESTR</instrumentId>
+            <currency>EUR</currency>
+            <floatingRateIndex floatingRateIndexScheme="http://www.moex.com/spfi/coding-scheme/floating-rate-index-market">EUR-ESTR</floatingRateIndex>
+            <term>
+              <periodMultiplier>1</periodMultiplier>
+              <period>D</period>
+            </term>
+          </rateIndex>
+          <fx id="MOEXFIXUSDCNY">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXFIXUSDCNY</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>CNY</currency1>
+              <currency2>USD</currency2>
+              <quoteBasis>Currency1PerCurrency2</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <fx id="MOEXCENTRALCNYRUB">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXCENTRALCNYRUB</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>CNY</currency1>
+              <currency2>RUB</currency2>
+              <quoteBasis>Currency2PerCurrency1</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <fx id="MOEXCENTRALEURUSD">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXCENTRALEURUSD</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>EUR</currency1>
+              <currency2>USD</currency2>
+              <quoteBasis>Currency2PerCurrency1</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <fx id="MOEXFIXCHFRUB">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXFIXCHFRUB</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>RUB</currency1>
+              <currency2>CHF</currency2>
+              <quoteBasis>Currency1PerCurrency2</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <fx id="MOEXFIXEURCNY">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXFIXEURCNY</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>CNY</currency1>
+              <currency2>EUR</currency2>
+              <quoteBasis>Currency1PerCurrency2</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <rateIndex id="USD-OISFX">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">USD-OISFX</instrumentId>
+            <currency>USD</currency>
+            <floatingRateIndex floatingRateIndexScheme="http://www.moex.com/spfi/coding-scheme/floating-rate-index-market">USD-OISFX</floatingRateIndex>
+            <term>
+              <periodMultiplier>1</periodMultiplier>
+              <period>D</period>
+            </term>
+          </rateIndex>
+          <rateIndex id="EUR-EURIBOR-Act/365-6M">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">EUR-EURIBOR-Act/365-6M</instrumentId>
+            <currency>EUR</currency>
+            <floatingRateIndex floatingRateIndexScheme="http://www.moex.com/spfi/coding-scheme/floating-rate-index-market">EUR-EURIBOR-Act/365</floatingRateIndex>
+            <term>
+              <periodMultiplier>6</periodMultiplier>
+              <period>M</period>
+            </term>
+          </rateIndex>
+          <fx id="MOEXCENTRALEURRUB">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXCENTRALEURRUB</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>EUR</currency1>
+              <currency2>RUB</currency2>
+              <quoteBasis>Currency2PerCurrency1</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <fx id="MOEXCENTRALEURCNY">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXCENTRALEURCNY</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>CNY</currency1>
+              <currency2>EUR</currency2>
+              <quoteBasis>Currency1PerCurrency2</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <rateIndex id="USD-SOFR">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">USD-SOFR</instrumentId>
+            <currency>USD</currency>
+            <floatingRateIndex floatingRateIndexScheme="http://www.moex.com/spfi/coding-scheme/floating-rate-index-market">USD-SOFR</floatingRateIndex>
+            <term>
+              <periodMultiplier>1</periodMultiplier>
+              <period>D</period>
+            </term>
+          </rateIndex>
+          <fx id="MOEXCBRCNYRUB">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXCBRCNYRUB</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>CNY</currency1>
+              <currency2>RUB</currency2>
+              <quoteBasis>Currency2PerCurrency1</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <rateIndex id="EUR-EURIBOR-Act/365-1M">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">EUR-EURIBOR-Act/365-1M</instrumentId>
+            <currency>EUR</currency>
+            <floatingRateIndex floatingRateIndexScheme="http://www.moex.com/spfi/coding-scheme/floating-rate-index-market">EUR-EURIBOR-Act/365</floatingRateIndex>
+            <term>
+              <periodMultiplier>1</periodMultiplier>
+              <period>M</period>
+            </term>
+          </rateIndex>
+          <rateIndex id="RUB-RUSFAR-OIS-COMPOUND">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">RUB-RUSFAR-OIS-COMPOUND</instrumentId>
+            <currency>RUB</currency>
+            <floatingRateIndex floatingRateIndexScheme="http://www.moex.com/spfi/coding-scheme/floating-rate-index-market">RUB-RUSFAR-OIS-COMPOUND</floatingRateIndex>
+            <term>
+              <periodMultiplier>1</periodMultiplier>
+              <period>D</period>
+            </term>
+          </rateIndex>
+          <rateIndex id="EUR-EURIBOR-Act/365-3M">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">EUR-EURIBOR-Act/365-3M</instrumentId>
+            <currency>EUR</currency>
+            <floatingRateIndex floatingRateIndexScheme="http://www.moex.com/spfi/coding-scheme/floating-rate-index-market">EUR-EURIBOR-Act/365</floatingRateIndex>
+            <term>
+              <periodMultiplier>3</periodMultiplier>
+              <period>M</period>
+            </term>
+          </rateIndex>
+          <rateIndex id="CNY-RUSFARCNY-OIS-COMPOUND">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">CNY-RUSFARCNY-OIS-COMPOUND</instrumentId>
+            <currency>CNY</currency>
+            <floatingRateIndex floatingRateIndexScheme="http://www.moex.com/spfi/coding-scheme/floating-rate-index-market">RUSFARCNY-OIS-COMPOUND</floatingRateIndex>
+            <term>
+              <periodMultiplier>1</periodMultiplier>
+              <period>D</period>
+            </term>
+          </rateIndex>
+          <fx id="MOEXCENTRALUSDCNY">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXCENTRALUSDCNY</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>CNY</currency1>
+              <currency2>USD</currency2>
+              <quoteBasis>Currency1PerCurrency2</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <rateIndex id="RUB-RUSFAR-3M">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">RUB-RUSFAR-3M</instrumentId>
+            <currency>RUB</currency>
+            <floatingRateIndex floatingRateIndexScheme="http://www.moex.com/spfi/coding-scheme/floating-rate-index-market">RUB-RUSFAR</floatingRateIndex>
+            <term>
+              <periodMultiplier>3</periodMultiplier>
+              <period>M</period>
+            </term>
+          </rateIndex>
+          <rateIndex id="RUB-CBR-KEY-RATE">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">RUB-CBR-KEY-RATE</instrumentId>
+            <currency>RUB</currency>
+            <floatingRateIndex floatingRateIndexScheme="http://www.moex.com/spfi/coding-scheme/floating-rate-index-market">RUB-CBR-KEY-RATE</floatingRateIndex>
+            <term>
+              <periodMultiplier>1</periodMultiplier>
+              <period>W</period>
+            </term>
+          </rateIndex>
+          <fx id="MOEXCBREURRUB">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXCBREURRUB</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>EUR</currency1>
+              <currency2>RUB</currency2>
+              <quoteBasis>Currency2PerCurrency1</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <fx id="MOEXCENTRALKZTRUB">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXCENTRALKZTRUB</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>RUB</currency1>
+              <currency2>KZT</currency2>
+              <quoteBasis>Currency1PerCurrency2</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <fx id="MOEXCBRUSDRUB">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXCBRUSDRUB</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>RUB</currency1>
+              <currency2>USD</currency2>
+              <quoteBasis>Currency1PerCurrency2</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <fx id="MOEXCENTRALUSDRUB">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXCENTRALUSDRUB</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>RUB</currency1>
+              <currency2>USD</currency2>
+              <quoteBasis>Currency1PerCurrency2</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <fx id="MOEXFIXCNYRUB">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXFIXCNYRUB</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>CNY</currency1>
+              <currency2>RUB</currency2>
+              <quoteBasis>Currency2PerCurrency1</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <rateIndex id="RUB-RUONIA-OIS-AVG">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">RUB-RUONIA-OIS-AVG</instrumentId>
+            <currency>RUB</currency>
+            <floatingRateIndex floatingRateIndexScheme="http://www.moex.com/spfi/coding-scheme/floating-rate-index-market">RUB-RUONIA-OIS-AVG</floatingRateIndex>
+            <term>
+              <periodMultiplier>1</periodMultiplier>
+              <period>D</period>
+            </term>
+          </rateIndex>
+          <fx id="MOEXCENTRALCHFRUB">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXCENTRALCHFRUB</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>RUB</currency1>
+              <currency2>CHF</currency2>
+              <quoteBasis>Currency1PerCurrency2</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <rateIndex id="RUB-RUONIA-OIS-COMPOUND">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">Ruonia-ON</instrumentId>
+            <currency>RUB</currency>
+            <floatingRateIndex floatingRateIndexScheme="http://www.moex.com/spfi/coding-scheme/floating-rate-index-market">RUB-RUONIA-OIS-COMPOUND</floatingRateIndex>
+            <term>
+              <periodMultiplier>1</periodMultiplier>
+              <period>D</period>
+            </term>
+          </rateIndex>
+          <rateIndex id="CNY-REPO-RATE">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">CNY-REPO-RATE</instrumentId>
+            <currency>CNY</currency>
+            <floatingRateIndex floatingRateIndexScheme="http://www.moex.com/spfi/coding-scheme/floating-rate-index-market">CNY-REPO-RATE</floatingRateIndex>
+            <term>
+              <periodMultiplier>1</periodMultiplier>
+              <period>W</period>
+            </term>
+          </rateIndex>
+          <fx id="MOEXFIXEURRUB">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXFIXEURRUB</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>EUR</currency1>
+              <currency2>RUB</currency2>
+              <quoteBasis>Currency2PerCurrency1</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <fx id="MOEXFIXEURUSD">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXFIXEURUSD</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>EUR</currency1>
+              <currency2>USD</currency2>
+              <quoteBasis>Currency2PerCurrency1</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+          <fx id="MOEXFIXUSDRUB">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXFIXUSDRUB</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>RUB</currency1>
+              <currency2>USD</currency2>
+              <quoteBasis>Currency1PerCurrency2</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+        </instrumentSet>
+        <assetQuote>
+          <objectReference href="EUR-ESTR"/>
+          <quote>
+            <value>0.02174</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-CNY-TOM-MARKET"/>
+          <quote>
+            <value>7.190045</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-CNY-TOM-MARKET"/>
+          <quote>
+            <value>7.171801</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-CNY-TOM-MARKET"/>
+          <quote>
+            <value>7.225398</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CNY-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>10.99485</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CNY-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>10.98119</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CNY-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>11.01428</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-USD-TOM-CENTRAL"/>
+          <quote>
+            <value>1.141784</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-USD-TOM-CENTRAL"/>
+          <quote>
+            <value>1.145794</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-USD-TOM-CENTRAL"/>
+          <quote>
+            <value>1.137681</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CHF-RUB-TOM-MARKET"/>
+          <quote>
+            <value>96.4495</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CHF-RUB-TOM-MARKET"/>
+          <quote>
+            <value>95.4902</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CHF-RUB-TOM-MARKET"/>
+          <quote>
+            <value>96.3172</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-CNY-TOM-MARKET"/>
+          <quote>
+            <value>8.209480</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-CNY-TOM-MARKET"/>
+          <quote>
+            <value>8.217409</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-CNY-TOM-MARKET"/>
+          <quote>
+            <value>8.220197</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-OISFX"/>
+          <quote>
+            <value>0.1387469</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-EURIBOR-Act/365-6M"/>
+          <quote>
+            <value>0.02046</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>90.3954</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>90.6635</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>89.3108</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-CNY-TOM-CENTRAL"/>
+          <quote>
+            <value>8.221613</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-CNY-TOM-CENTRAL"/>
+          <quote>
+            <value>8.256255</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-CNY-TOM-CENTRAL"/>
+          <quote>
+            <value>8.108637</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-SOFR"/>
+          <quote>
+            <value>0.0429</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CNY-RUB-TOM-CBR"/>
+          <quote>
+            <value>11.011</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CNY-RUB-TOM-CBR"/>
+          <quote>
+            <value>11.0208</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CNY-RUB-TOM-CBR"/>
+          <quote>
+            <value>10.8685</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-EURIBOR-Act/365-1M"/>
+          <quote>
+            <value>0.01964</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="RUB-RUSFAR-OIS-COMPOUND"/>
+          <quote>
+            <value>0.2026</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-EURIBOR-Act/365-3M"/>
+          <quote>
+            <value>0.01954</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CNY-RUSFARCNY-OIS-COMPOUND"/>
+          <quote>
+            <value>-0.0006</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-CNY-TOM-CENTRAL"/>
+          <quote>
+            <value>7.200671</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-CNY-TOM-CENTRAL"/>
+          <quote>
+            <value>7.205704</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-CNY-TOM-CENTRAL"/>
+          <quote>
+            <value>7.127338</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="RUB-RUSFAR-3M"/>
+          <quote>
+            <value>0.2006</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="RUB-CBR-KEY-RATE"/>
+          <quote>
+            <value>0.21</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-RUB-TOM-CBR"/>
+          <quote>
+            <value>90.3954</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-RUB-TOM-CBR"/>
+          <quote>
+            <value>90.6635</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-RUB-TOM-CBR"/>
+          <quote>
+            <value>89.3108</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="KZT-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>0.15985</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="KZT-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>0.158703</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="KZT-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>0.158491</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-RUB-TOM-CBR"/>
+          <quote>
+            <value>79.1703</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-RUB-TOM-CBR"/>
+          <quote>
+            <value>79.1272</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-RUB-TOM-CBR"/>
+          <quote>
+            <value>78.5025</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>79.1703</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>79.1272</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>78.5025</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CNY-RUB-TOM-MARKET"/>
+          <quote>
+            <value>11.0111</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CNY-RUB-TOM-MARKET"/>
+          <quote>
+            <value>11.0331</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CNY-RUB-TOM-MARKET"/>
+          <quote>
+            <value>10.8648</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="RUB-RUONIA-OIS-AVG"/>
+          <quote>
+            <value>0.2079</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CHF-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>96.3142</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CHF-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>96.4495</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CHF-RUB-TOM-CENTRAL"/>
+          <quote>
+            <value>95.4902</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="Ruonia-ON"/>
+          <quote>
+            <value>0.2079</value>
+            <time>2025-06-05</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="CNY-REPO-RATE"/>
+          <quote>
+            <value>0.0156</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-RUB-TOM-MARKET"/>
+          <quote>
+            <value>90.3954</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-RUB-TOM-MARKET"/>
+          <quote>
+            <value>90.6635</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-RUB-TOM-MARKET"/>
+          <quote>
+            <value>89.3108</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-USD-TOM-MARKET"/>
+          <quote>
+            <value>1.14178</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-USD-TOM-MARKET"/>
+          <quote>
+            <value>1.14579</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="EUR-USD-TOM-MARKET"/>
+          <quote>
+            <value>1.13768</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-RUB-TOM-MARKET"/>
+          <quote>
+            <value>79.1703</value>
+            <time>2025-06-06T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-RUB-TOM-MARKET"/>
+          <quote>
+            <value>79.1272</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+        <assetQuote>
+          <objectReference href="USD-RUB-TOM-MARKET"/>
+          <quote>
+            <value>78.5025</value>
+            <time>2025-06-04T00:00:00</time>
+          </quote>
+        </assetQuote>
+      </benchmarkQuotes>
+    </market>
+    <party xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000">
+      <partyId>MF0276600000</partyId>
+      <partyName>ГроттБьерн (АО)</partyName>
+    </party>
+    <party xmlns="http://www.fpml.org/FpML-5/confirmation" id="NCCB">
+      <partyId>NCCB</partyId>
+      <partyName>НКО НКЦ (АО)</partyName>
+    </party>
+    <account xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000.RK17834.MF0276600000">
+      <accountId>MF0276600000.RK17834.MF0276600000</accountId>
+      <accountType>House</accountType>
+      <accountBeneficiary href="MF0276600000"/>
+    </account>
+    <account xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000.RK20899.MF0276600000">
+      <accountId>MF0276600000.RK20899.MF0276600000</accountId>
+      <accountType>House</accountType>
+      <accountBeneficiary href="MF0276600000"/>
+    </account>
+    <account xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000.RK21055.MF0276600000">
+      <accountId>MF0276600000.RK21055.MF0276600000</accountId>
+      <accountType>House</accountType>
+      <accountBeneficiary href="MF0276600000"/>
+    </account>
+    <account xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000.RK21219.MF0276600000">
+      <accountId>MF0276600000.RK21219.MF0276600000</accountId>
+      <accountType>House</accountType>
+      <accountBeneficiary href="MF0276600000"/>
+    </account>
+    <account xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000.RK21221.MF0276600000">
+      <accountId>MF0276600000.RK21221.MF0276600000</accountId>
+      <accountType>House</accountType>
+      <accountBeneficiary href="MF0276600000"/>
+    </account>
+    <account xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000.RK21571.MF0276600000">
+      <accountId>MF0276600000.RK21571.MF0276600000</accountId>
+      <accountType>House</accountType>
+      <accountBeneficiary href="MF0276600000"/>
+    </account>
+    <account xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000.RK21645.MF0276600000">
+      <accountId>MF0276600000.RK21645.MF0276600000</accountId>
+      <accountType>House</accountType>
+      <accountBeneficiary href="MF0276600000"/>
+    </account>
+    <account xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000.RK22288.MF0276600000">
+      <accountId>MF0276600000.RK22288.MF0276600000</accountId>
+      <accountType>House</accountType>
+      <accountBeneficiary href="MF0276600000"/>
+    </account>
+    <account xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000.RK22361.MF0276600000">
+      <accountId>MF0276600000.RK22361.MF0276600000</accountId>
+      <accountType>House</accountType>
+      <accountBeneficiary href="MF0276600000"/>
+    </account>
+    <account xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000.RK22375.MF0276600000">
+      <accountId>MF0276600000.RK22375.MF0276600000</accountId>
+      <accountType>House</accountType>
+      <accountBeneficiary href="MF0276600000"/>
+    </account>
+    <account xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000.RK28386.MF0276600000">
+      <accountId>MF0276600000.RK28386.MF0276600000</accountId>
+      <accountType>House</accountType>
+      <accountBeneficiary href="MF0276600000"/>
+    </account>
+    <account xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000.RK28450.MF0276600000">
+      <accountId>MF0276600000.RK28450.MF0276600000</accountId>
+      <accountType>House</accountType>
+      <accountBeneficiary href="MF0276600000"/>
+    </account>
+    <account xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000.RK29081.MF0276600000">
+      <accountId>MF0276600000.RK29081.MF0276600000</accountId>
+      <accountType>House</accountType>
+      <accountBeneficiary href="MF0276600000"/>
+    </account>
+    <account xmlns="http://www.fpml.org/FpML-5/confirmation" id="MF0276600000.RK33944.MF0276600000">
+      <accountId>MF0276600000.RK33944.MF0276600000</accountId>
+      <accountType>House</accountType>
+      <accountBeneficiary href="MF0276600000"/>
+    </account>
+  </fpml>
+  <initialMargin>
+    <settlementCode id="MF0276600000.RK28450">
+      <settlementCodeId>28450</settlementCodeId>
+      <unifiedPoolStatus>true</unifiedPoolStatus>
+      <estimateAmountSumm>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountSumm>
+      <initialMarginMin>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </initialMarginMin>
+      <estimateAmountAvailable>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </estimateAmountAvailable>
+      <estimateAmountBalance>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountBalance>
+    </settlementCode>
+    <settlementCode id="MF0276600000.RK28386">
+      <settlementCodeId>28386</settlementCodeId>
+      <unifiedPoolStatus>true</unifiedPoolStatus>
+      <estimateAmountSumm>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountSumm>
+      <initialMarginMin>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </initialMarginMin>
+      <estimateAmountAvailable>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </estimateAmountAvailable>
+      <estimateAmountBalance>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountBalance>
+    </settlementCode>
+    <settlementCode id="MF0276600000.RK33944">
+      <settlementCodeId>33944</settlementCodeId>
+      <unifiedPoolStatus>true</unifiedPoolStatus>
+      <balance id="RUB">
+        <balanceStartDay>
+          <asset>RUB</asset>
+          <amount>1794.67</amount>
+        </balanceStartDay>
+        <balanceBeforeClearing>
+          <asset>RUB</asset>
+          <amount>1764.26</amount>
+        </balanceBeforeClearing>
+        <liability>
+          <liabilityAmount>
+            <asset>RUB</asset>
+            <amount>-30.41</amount>
+          </liabilityAmount>
+          <liabilityDetails>
+            <liabilityGroup id="PRC_NM">
+              <liabilityAmount>
+                <asset>RUB</asset>
+                <amount>0.12</amount>
+              </liabilityAmount>
+              <liabilityType liabilityTypeScheme="http://www.moex.com/spfi/coding-scheme/liability-type">PRC_NM</liabilityType>
+            </liabilityGroup>
+            <liabilityGroup id="SCFDM">
+              <liabilityAmount>
+                <asset>RUB</asset>
+                <amount>-30.53</amount>
+              </liabilityAmount>
+              <liabilityType liabilityTypeScheme="http://www.moex.com/spfi/coding-scheme/liability-type">SCFDM</liabilityType>
+            </liabilityGroup>
+          </liabilityDetails>
+        </liability>
+        <payments>
+          <asset>RUB</asset>
+          <amount>-30.41</amount>
+        </payments>
+        <balanceAfterClearing>
+          <asset>RUB</asset>
+          <amount>1764.26</amount>
+        </balanceAfterClearing>
+        <estimateAmount>
+          <currency>RUB</currency>
+          <amount>1764.26</amount>
+        </estimateAmount>
+        <amountAvailable>
+          <currency>RUB</currency>
+          <amount>903.71</amount>
+        </amountAvailable>
+      </balance>
+      <estimateAmountSumm>
+        <currency>RUB</currency>
+        <amount>1764.26</amount>
+      </estimateAmountSumm>
+      <initialMarginMin>
+        <currency>RUB</currency>
+        <amount>860.37</amount>
+      </initialMarginMin>
+      <estimateAmountAvailable>
+        <currency>RUB</currency>
+        <amount>903.71</amount>
+      </estimateAmountAvailable>
+      <estimateAmountBalance>
+        <currency>RUB</currency>
+        <amount>1764.26</amount>
+      </estimateAmountBalance>
+    </settlementCode>
+    <settlementCode id="MF0276600000.RK29081">
+      <settlementCodeId>29081</settlementCodeId>
+      <unifiedPoolStatus>true</unifiedPoolStatus>
+      <estimateAmountSumm>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountSumm>
+      <initialMarginMin>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </initialMarginMin>
+      <estimateAmountAvailable>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </estimateAmountAvailable>
+      <estimateAmountBalance>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountBalance>
+    </settlementCode>
+    <settlementCode id="MF0276600000.RK20899">
+      <settlementCodeId>20899</settlementCodeId>
+      <unifiedPoolStatus>true</unifiedPoolStatus>
+      <estimateAmountSumm>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountSumm>
+      <initialMarginMin>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </initialMarginMin>
+      <estimateAmountAvailable>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </estimateAmountAvailable>
+      <estimateAmountBalance>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountBalance>
+    </settlementCode>
+    <settlementCode id="MF0276600000.RK21571">
+      <settlementCodeId>21571</settlementCodeId>
+      <unifiedPoolStatus>true</unifiedPoolStatus>
+      <estimateAmountSumm>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountSumm>
+      <initialMarginMin>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </initialMarginMin>
+      <estimateAmountAvailable>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </estimateAmountAvailable>
+      <estimateAmountBalance>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountBalance>
+    </settlementCode>
+    <settlementCode id="MF0276600000.RK22375">
+      <settlementCodeId>22375</settlementCodeId>
+      <unifiedPoolStatus>true</unifiedPoolStatus>
+      <estimateAmountSumm>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountSumm>
+      <initialMarginMin>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </initialMarginMin>
+      <estimateAmountAvailable>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </estimateAmountAvailable>
+      <estimateAmountBalance>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountBalance>
+    </settlementCode>
+    <settlementCode id="MF0276600000.RK21645">
+      <settlementCodeId>21645</settlementCodeId>
+      <unifiedPoolStatus>true</unifiedPoolStatus>
+      <estimateAmountSumm>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountSumm>
+      <initialMarginMin>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </initialMarginMin>
+      <estimateAmountAvailable>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </estimateAmountAvailable>
+      <estimateAmountBalance>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountBalance>
+    </settlementCode>
+    <settlementCode id="MF0276600000.RK17834">
+      <settlementCodeId>17834</settlementCodeId>
+      <unifiedPoolStatus>true</unifiedPoolStatus>
+      <balance id="CNY">
+        <balanceStartDay>
+          <asset>CNY</asset>
+          <amount>1000.00</amount>
+        </balanceStartDay>
+        <balanceBeforeClearing>
+          <asset>CNY</asset>
+          <amount>1000.00</amount>
+        </balanceBeforeClearing>
+        <liability>
+          <liabilityAmount>
+            <asset>CNY</asset>
+            <amount>0</amount>
+          </liabilityAmount>
+          <liabilityDetails/>
+        </liability>
+        <payments>
+          <asset>CNY</asset>
+          <amount>0</amount>
+        </payments>
+        <balanceAfterClearing>
+          <asset>CNY</asset>
+          <amount>1000.00</amount>
+        </balanceAfterClearing>
+        <estimateAmount>
+          <currency>RUB</currency>
+          <amount>10994.8500000</amount>
+        </estimateAmount>
+        <amountAvailable>
+          <currency>CNY</currency>
+          <amount>1272.5</amount>
+        </amountAvailable>
+      </balance>
+      <balance id="RUB">
+        <balanceStartDay>
+          <asset>RUB</asset>
+          <amount>4205.33</amount>
+        </balanceStartDay>
+        <balanceBeforeClearing>
+          <asset>RUB</asset>
+          <amount>4235.74</amount>
+        </balanceBeforeClearing>
+        <liability>
+          <liabilityAmount>
+            <asset>RUB</asset>
+            <amount>30.41</amount>
+          </liabilityAmount>
+          <liabilityDetails>
+            <liabilityGroup id="PRC_NM">
+              <liabilityAmount>
+                <asset>RUB</asset>
+                <amount>-0.12</amount>
+              </liabilityAmount>
+              <liabilityType liabilityTypeScheme="http://www.moex.com/spfi/coding-scheme/liability-type">PRC_NM</liabilityType>
+            </liabilityGroup>
+            <liabilityGroup id="SCFDM">
+              <liabilityAmount>
+                <asset>RUB</asset>
+                <amount>30.53</amount>
+              </liabilityAmount>
+              <liabilityType liabilityTypeScheme="http://www.moex.com/spfi/coding-scheme/liability-type">SCFDM</liabilityType>
+            </liabilityGroup>
+          </liabilityDetails>
+        </liability>
+        <payments>
+          <asset>RUB</asset>
+          <amount>30.41</amount>
+        </payments>
+        <balanceAfterClearing>
+          <asset>RUB</asset>
+          <amount>4235.74</amount>
+        </balanceAfterClearing>
+        <estimateAmount>
+          <currency>RUB</currency>
+          <amount>4235.74</amount>
+        </estimateAmount>
+        <amountAvailable>
+          <currency>RUB</currency>
+          <amount>14212.58</amount>
+        </amountAvailable>
+      </balance>
+      <estimateAmountSumm>
+        <currency>RUB</currency>
+        <amount>15230.5900000</amount>
+      </estimateAmountSumm>
+      <initialMarginMin>
+        <currency>RUB</currency>
+        <amount>1027.78</amount>
+      </initialMarginMin>
+      <estimateAmountAvailable>
+        <currency>RUB</currency>
+        <amount>14212.58</amount>
+      </estimateAmountAvailable>
+      <estimateAmountBalance>
+        <currency>RUB</currency>
+        <amount>15230.5900000</amount>
+      </estimateAmountBalance>
+    </settlementCode>
+    <settlementCode id="MF0276600000.RK22288">
+      <settlementCodeId>22288</settlementCodeId>
+      <unifiedPoolStatus>true</unifiedPoolStatus>
+      <estimateAmountSumm>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountSumm>
+      <initialMarginMin>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </initialMarginMin>
+      <estimateAmountAvailable>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </estimateAmountAvailable>
+      <estimateAmountBalance>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountBalance>
+    </settlementCode>
+    <settlementCode id="MF0276600000.RK21219">
+      <settlementCodeId>21219</settlementCodeId>
+      <unifiedPoolStatus>true</unifiedPoolStatus>
+      <estimateAmountSumm>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountSumm>
+      <initialMarginMin>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </initialMarginMin>
+      <estimateAmountAvailable>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </estimateAmountAvailable>
+      <estimateAmountBalance>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountBalance>
+    </settlementCode>
+    <settlementCode id="MF0276600000.RK21055">
+      <settlementCodeId>21055</settlementCodeId>
+      <unifiedPoolStatus>true</unifiedPoolStatus>
+      <estimateAmountSumm>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountSumm>
+      <initialMarginMin>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </initialMarginMin>
+      <estimateAmountAvailable>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </estimateAmountAvailable>
+      <estimateAmountBalance>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountBalance>
+    </settlementCode>
+    <settlementCode id="MF0276600000.RK22361">
+      <settlementCodeId>22361</settlementCodeId>
+      <unifiedPoolStatus>true</unifiedPoolStatus>
+      <estimateAmountSumm>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountSumm>
+      <initialMarginMin>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </initialMarginMin>
+      <estimateAmountAvailable>
+        <currency>RUB</currency>
+        <amount>0.0</amount>
+      </estimateAmountAvailable>
+      <estimateAmountBalance>
+        <currency>RUB</currency>
+        <amount>0</amount>
+      </estimateAmountBalance>
+    </settlementCode>
+  </initialMargin>
+</moexSpfiReport>
