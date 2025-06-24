@@ -1,0 +1,32 @@
+    <market xmlns="http://www.fpml.org/FpML-5/confirmation">
+      <benchmarkQuotes>
+        <instrumentSet>
+          <rateIndex id="EUR-ESTR">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">EUR-ESTR</instrumentId>
+            <currency>EUR</currency>
+            <floatingRateIndex floatingRateIndexScheme="http://www.moex.com/spfi/coding-scheme/floating-rate-index-market">EUR-ESTR</floatingRateIndex>
+            <term>
+              <periodMultiplier>1</periodMultiplier>
+              <period>D</period>
+            </term>
+          </rateIndex>
+          <fx id="MOEXFIXUSDCNY">
+            <instrumentId instrumentIdScheme="http://www.moex.com/spfi/coding-scheme/instrument-id">MOEXFIXUSDCNY</instrumentId>
+            <quotedCurrencyPair>
+              <currency1>CNY</currency1>
+              <currency2>USD</currency2>
+              <quoteBasis>Currency1PerCurrency2</quoteBasis>
+            </quotedCurrencyPair>
+          </fx>
+		</instrumentSet>
+		<assetQuote>
+          <objectReference href="EUR-ESTR"/>
+          <quote>
+            <value>0.02174</value>
+            <time>2025-06-05T00:00:00</time>
+          </quote>
+        </assetQuote>
+	</benchmarkQuotes>
+    </market>
+
+		  
